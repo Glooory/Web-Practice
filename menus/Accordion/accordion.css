@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.accordion {
+    width: 100%;
+    padding: 12px 20px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #444;
+    background-color: #eee;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.panel {
+    display: none;
+    padding: 12px 20px;
+    overflow: hidden;
+    /* max-height: 0;
+    transition: max-height 0.2s ease-out; */
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
