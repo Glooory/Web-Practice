@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar,
+.menu-bar-vertical {
+    list-style-type: none;
+}
+
+.menu-bar a {
+    display: inline-block;
+    background-color: #555;
+}
+
+.menu-bar a:hover,
+.menu-bar-vertical a:hover {
+    background-color: #000;
+}
+
+.menu-bar img {
+    width: 28px;
+    padding: 12px 16px;
+}
+
+a.active {
+    background-color: #4CAF50 !important;
+}
+
+.menu-bar-vertical {
+    margin-top: 200px;
+}
+
+.menu-bar-vertical li {
+    float: left;
+}
+
+.menu-bar-vertical a {
+    display: inline-block;
+    background-color: #555;
+}
+
+.menu-bar-vertical img {
+    width: 28px;
+    padding: 12px 56px;
+}
