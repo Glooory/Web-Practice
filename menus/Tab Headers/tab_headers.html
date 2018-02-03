@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8" />
+    <title>Tab Headers</title>
+    <link rel="stylesheet" type="text/css" href="tab_headers.css">
+</header>
+
+<body>
+    <div id="beijing" class="tabcontent">
+        <h3>Beijing</h3>
+        <p>Beijing is the capital of China.</p>
+    </div>
+
+    <div id="london" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital of England.</p>
+    </div>
+
+    <div id="paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="newyork" class="tabcontent">
+        <h3>New York</h3>
+        <p>New York is the capital of American.</p>
+    </div>
+
+    <div class="tab">
+        <button class="tablink" onclick="displayCity('beijing', this, 'red')" id="open-default">Beijing</button>
+        <button class="tablink" onclick="displayCity('london', this, 'green')">London</button>
+        <button class="tablink" onclick="displayCity('paris', this, 'purple')">Paris</button>
+        <button class="tablink" onclick="displayCity('newyork', this, 'blue')">New York</button>
+    </div>
+    <script src="tab_headers.js"></script>
+</body>
+
+</html>

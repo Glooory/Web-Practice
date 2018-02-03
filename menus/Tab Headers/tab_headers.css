@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabcontent {
+    display: none;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.tab {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    float: left;
+    width: 25%;
+    padding: 12px 24px;
+    background-color: #555;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+.tab button:hover {
+    background-color: #777;
+}
+
+#beijing {
+    background-color: red;
+}
+
+#london {
+    background-color: green;
+}
+
+#paris {
+    background-color: purple;
+}
+
+#newyork {
+    background-color: blue;
+}
