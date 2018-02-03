@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8" />
+    <title>Tabs</title>
+    <link rel="stylesheet" type="text/css" href="tabs.css" />
+</header>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="open-default">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'New York')">New York</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="New York" class="tabcontent">
+        <h3>New York</h3>
+        <p>New York is the capital of American.</p>
+    </div>
+
+    <script src="tabs.js"></script>
+</body>
+
+</html>
