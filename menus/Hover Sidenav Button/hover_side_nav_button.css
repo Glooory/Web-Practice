@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    top: 50%;
+    left: -70px;
+    padding: auto 0;
+    transform: translateY(-120px);
+    overflow: hidden;
+}
+
+.nav a {
+    display: block;
+    width: 140px;
+    margin: 4px 0;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 4px;
+}
+
+.nav a:hover {
+    margin-left: 70px;
+    transition: margin-left .5s;
+}
+
+.content {
+    display: inline-block;
+    padding: 24px 24px 24px 100px;
+}
+
+#home {
+    background-color: #3BAF57;
+}
+
+#news {
+    background-color: #0096EF;
+}
+
+#contact {
+    background-color: #FD423E;
+}
+
+#about {
+    background-color: #555555;
+}
