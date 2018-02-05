@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8" />
+    <title>Full Page Tabs</title>
+    <link rel="stylesheet" type="text/css" href="full_page_tabs.css">
+</header>
+
+<body>
+    <button id="display-default" class="tab" onclick="displayTab('home', this, 'red')">Home</button>
+    <button class="tab" onclick="displayTab('news', this, 'blue')">News</button>
+    <button class="tab" onclick="displayTab('contact', this, 'purple')">Contact</button>
+    <button class="tab" onclick="displayTab('about', this, 'cadetblue')">About</button>
+    <div id="home" class="tab-content">
+        <h2>Home</h2>
+        <p>Home is where the heart is ...</p>
+    </div>
+    <div id="news" class="tab-content">
+        <h2>News</h2>
+        <p>Some news this fine day!</p>
+    </div>
+    <div id="contact" class="tab-content">
+        <h2>Contact</h2>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+    <div id="about" class="tab-content">
+        <h2>About</h2>
+        <p>Who are we and what we do.</p>
+    </div>
+    <script src="full_page_tabs.js"></script>
+</body>
+
+</html>

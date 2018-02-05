@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.tab {
+    float: left;
+    width: 25%;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #555;
+    cursor: pointer;
+    color: white;
+}
+
+.tab:hover {
+    background-color: #777;
+}
+
+.tab-content {
+    display: none;
+    height: 100%;
+    padding: 100px 48px;
+    color: white;
+}
+
+#home {
+    background-color: red;
+}
+
+#news {
+    background-color: blue;
+}
+
+#contact {
+    background-color: purple;
+}
+
+#about {
+    background-color: cadetblue;
+}
