@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.nav {
+    position: sticky;
+    width: 100%;
+    background-color: #333;
+    color: #eee;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    padding: 12px 24px;
+    color: #ddd;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.nav a.active {
+    background-color: green;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    font-size: 2em;
+    padding: 24px;
+}
+
+.content h3 {
+    margin: 36px 0;
+}
+
+.content p {
+    margin-bottom: 48px;
+}
