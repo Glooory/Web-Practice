@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8" />
+    <title>Slide Show Gallery</title>
+    <link rel="stylesheet" type="text/css" href="slide_show_gallery.css" />
+</header>
+
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <div class="gallery-index">1 / 6</div>
+            <img src="images/img_1_wide.jpg" />
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-index">2 / 6</div>
+            <img src="images/img_2_wide.jpg" />
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-index">3 / 6</div>
+            <img src="images/img_3_wide.jpg" />
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-index">4 / 6</div>
+            <img src="images/img_4_wide.jpg" />
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-index">5 / 6</div>
+            <img src="images/img_5_wide.jpg" />
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-index">6 / 6</div>
+            <img src="images/img_6_wide.jpg" />
+        </div>
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+        <div class="caption-container">
+            <p id="caption">Sample</p>
+        </div>
+        <div class="gallery-thumbnails">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="images/img_1.jpg" alt="Snowy Mountains" onclick="currentSlide(1)" />
+            </div>
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="images/img_2.jpg" alt="Northern Lights" onclick="currentSlide(2)" />
+            </div>
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="images/img_3.jpg" alt="Mountains and fjords" onclick="currentSlide(3)" />
+            </div>
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="images/img_4.jpg" alt="Trolltunga, Norway" onclick="currentSlide(4)" />
+            </div>
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="images/img_5.jpg" alt="Nature and sunrise" onclick="currentSlide(5)" />
+            </div>
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="images/img_6.jpg" alt="The Woods" onclick="currentSlide(6)" />
+            </div>
+        </div>
+    </div>
+    <script src="slide_show_gallery.js"></script>
+</body>
+
+</html>
