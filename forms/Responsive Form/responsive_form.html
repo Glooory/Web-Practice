@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8" />
+    <title>Responsive Form</title>
+    <link rel="stylesheet" type="text/css" href="responsive_form.css" />
+</header>
+
+<body>
+    <h2>Responsive Form</h2>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="forms-container">
+        <form action="">
+            <div class="item">
+                <div class="item-title">
+                    <label for="first_name">Frist Name</label>
+                </div>
+                <div class="item-content">
+                    <input type="text" id="first_name" name="firstname" placeholder="Your first name...">
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-title">
+                    <label for="last_name">Last Name</label>
+                </div>
+                <div class="item-content">
+                    <input type="text" id="last_name" name="lastname" placeholder="Your last name...">
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-title">
+                    <label for="country">Country</label>
+                </div>
+                <div class="item-content">
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-title">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="item-content">
+                    <textarea name="subject" id="subject" placeholder="Write something..."></textarea>
+                </div>
+            </div>
+            <div class="item-submit">
+                <input type="submit" value="Submit">
+            </div>
+            <div class="clear"></div>
+        </form>
+    </div>
+</body>
+
+</html>
