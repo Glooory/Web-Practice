@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Band Template</title>
+    <link rel="stylesheet" type="text/css" href="band.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</header>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <a class="nav-item" href="#">HOME</a>
+            <a class="nav-item" href="#">BAND</a>
+            <a class="nav-item" href="#">TOUR</a>
+            <a class="nav-item" href="#">CONTACT</a>
+            <div class="nav-dropdown fl">
+                <button class="dropdown-btn">MORE <i class="dropdown-arrow"></i></button>
+                <div class="nav-dropdown-content">
+                    <a href="#">Merchandise</a>
+                    <a href="#">Extras</a>
+                    <a href="#">Media</a>
+                </div>
+            </div>
+            <a class="search-btn" href="javascript:void(0)"><i class="search-icon material-icons">search</i></a>
+            <a class="menu-btn" id="menu_btn" href="javascript:void(0)"><i class="menu-icon material-icons">menu</i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div class="navbar-small-screen" id="navbar_small_screen">
+        <a href="#">BAND</a>
+        <a href="#">TOUR</a>
+        <a href="#">CONTACT</a>
+        <a href="#">MERCH</a>
+    </div>
+    <script src="band.js"></script>
+</body>
+
+</html>
