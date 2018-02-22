@@ -154,6 +154,32 @@ a.menu-btn {
     background-color: #222222;
 }
 
+.images-slide:not(:first-child) {
+    display: none;
+}
+
+.images-slide img {
+    width: 100%;
+}
+
+.img-des {
+    position: relative;
+    color: white;
+    top: -180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-des h3 {
+    padding: 12px;
+    font-size: 2em;
+}
+
+.img-des p {
+    margin: 12px;
+    font-size: 1.2em;
+}
+
 @media screen and (max-width: 600px) {
     .navbar-container>a:not(:first-child),
     .nav-dropdown {
@@ -161,5 +187,8 @@ a.menu-btn {
     }
     .navbar-container>a.menu-btn {
         display: block;
+    }
+    .img-des {
+        display: none;
     }
 }
