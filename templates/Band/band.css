@@ -180,6 +180,44 @@ a.menu-btn {
     font-size: 1.2em;
 }
 
+.band-about {
+    margin-top: -120px;
+    padding: 24px;
+}
+
+.band-about h3 {
+    padding: 12px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.band-about p.slogan {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #999999;
+}
+
+.band-members {
+    position: relative;
+    margin: 36px 0;
+}
+
+.img-member {
+    float: left;
+    width: 33.3%;
+    padding: 8px 12px;
+}
+
+.img-member h4 {
+    text-align: center;
+}
+
+.img-member img {
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     .navbar-container>a:not(:first-child),
     .nav-dropdown {
@@ -190,6 +228,13 @@ a.menu-btn {
     }
     .img-des {
         display: none!important;
+    }
+    .band-about {
+        margin-top: 0px;
+    }
+    .img-member {
+        float: none;
+        width: 100%;
     }
 }
 
