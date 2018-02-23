@@ -189,6 +189,12 @@ a.menu-btn {
         display: block;
     }
     .img-des {
-        display: none;
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .navbar-small-screen {
+        display: none!important;
     }
 }
