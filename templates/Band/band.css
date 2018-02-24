@@ -165,7 +165,7 @@ a.menu-btn {
 .img-des {
     position: relative;
     color: white;
-    top: -180px;
+    top: -140px;
     margin: 0 auto;
     text-align: center;
 }
@@ -183,6 +183,7 @@ a.menu-btn {
 .band-about {
     margin-top: -120px;
     padding: 24px;
+    overflow: hidden;
 }
 
 .band-about h3 {
@@ -210,12 +211,135 @@ a.menu-btn {
     padding: 8px 12px;
 }
 
+.img-members:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .img-member h4 {
     text-align: center;
 }
 
 .img-member img {
     width: 100%;
+}
+
+.tour-dates {
+    padding: 80px;
+    background-color: #000000;
+    color: white;
+}
+
+.tour-dates h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.tour-dates>p {
+    margin: 24px 0;
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+}
+
+.tour-months {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    color: #555555;
+    border: 6px solid #000;
+    border-top: none;
+    border-bottom: none;
+}
+
+.tour-month {
+    position: relative;
+    padding: 6px 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.label-sold-out {
+    margin-left: 16px;
+    padding: 0 8px;
+    background-color: tomato;
+    color: white;
+}
+
+.tour-count {
+    float: right;
+    right: 24px;
+    padding: 0 8px;
+    background-color: #000000;
+    border-radius: 24px;
+    color: white;
+}
+
+.tour-cities {
+    max-width: 1000px;
+    margin: 24px auto;
+    overflow: hidden;
+}
+
+.tour-cities:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tour-city {
+    width: 33.3%;
+    float: left;
+    background-color: white;
+    border: 6px solid #000;
+}
+
+.tour-cities:nth-child(1) {
+    margin: 0 6px;
+}
+
+.tour-city h4,
+.tour-city p {
+    font-size: 0.9em;
+    padding: 8px 12px;
+    color: #000;
+}
+
+h4.tour-date {
+    color: #999999;
+}
+
+.tour-city img {
+    width: 100%;
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.tour-city img:hover {
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+.btn-buy-ticket {
+    margin: 12px;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: white;
+}
+
+.btn-buy-ticket:hover {
+    background-color: #999999;
+    color: #000;
 }
 
 @media screen and (max-width: 600px) {
@@ -235,6 +359,13 @@ a.menu-btn {
     .img-member {
         float: none;
         width: 100%;
+    }
+    .tour-dates {
+        padding: 80px 12px;
+    }
+    .tour-city {
+        width: 100%;
+        float: none;
     }
 }
 
