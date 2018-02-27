@@ -433,6 +433,61 @@ input.feedback-msg {
     color: #000;
 }
 
+.footer {
+    margin: 64px 0;
+    overflow: hidden;
+}
+
+.footer-find-us {
+    margin: 36px auto;
+    text-align: center;
+}
+
+.footer-icon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 2em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-facebook:before {
+    content: "\f230";
+}
+
+.icon-instagram:before {
+    content: "\f16d"
+}
+
+.icon-snapchat:before {
+    content: "\f2ab"
+}
+
+.icon-pinterest:before {
+    content: "\f0d2"
+}
+
+.icon-twitter:before {
+    content: "\f099"
+}
+
+.icon-linkedin:before {
+    content: "\f0e1"
+}
+
+i.hover-opacity:hover:before {
+    opacity: 0.6;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+}
+
 @media screen and (max-width: 600px) {
     .navbar-container>a:not(:first-child),
     .nav-dropdown {
