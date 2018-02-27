@@ -53,6 +53,7 @@ body {
 .content {
     max-width: 1400px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .articles {
@@ -140,6 +141,10 @@ body {
     overflow: hidden;
 }
 
+.popular-article:hover {
+    background-color: #dddddd;
+}
+
 .popular-post img {
     width: 48px;
     float: left;
@@ -171,6 +176,57 @@ body {
 
 span.active {
     background-color: #000;
+    color: white;
+}
+
+.footer {
+    padding: 32px 16px;
+    background-color: #616161;
+    overflow: hidden;
+}
+
+.footer button {
+    float: left;
+    padding: 16px 24px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+button.previous {
+    color: #cccccc;
+    background-color: #444444;
+    cursor: not-allowed;
+}
+
+button.previous:hover {
+    background-color: #333333;
+}
+
+button.next {
+    margin-left: 12px;
+    color: #fff;
+    background-color: #000;
+}
+
+button.next:hover {
+    color: #555555;
+    background-color: #cccccc;
+}
+
+button.next:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer span {
+    display: block;
+    margin: 36px 0 12px 0;
+    color: white;
+}
+
+.footer a {
     color: white;
 }
 
