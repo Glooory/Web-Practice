@@ -16,6 +16,12 @@
     clear: both;
 }
 
+.card {
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 body,
 h1,
 h2,
@@ -42,4 +48,137 @@ body {
     padding: 2px 8px;
     background-color: #000;
     color: #fff;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.articles {
+    width: 66.666%;
+    padding: 0 16px;
+    overflow: hidden;
+}
+
+.article,
+.about,
+.popular-post,
+.tags {
+    display: inline-block;
+    width: 100%;
+    margin: 16px 0;
+    overflow: hidden;
+}
+
+.menu {
+    width: 33.333%;
+    padding: 0 16px;
+}
+
+.article img,
+.about img {
+    width: 100%;
+}
+
+.article h2,
+.article p,
+.article-footer {
+    margin: 16px;
+}
+
+.article span {
+    color: #999999;
+}
+
+.article-preview {
+    padding: 16px 0;
+}
+
+.article-footer button {
+    padding: 12px 24px;
+    border: 1px solid #e0e0e0;
+    font-size: 0.9em;
+    background-color: white;
+}
+
+.article-footer button:hover {
+    background-color: #e0e0e0;
+}
+
+.article-footer span {
+    float: right;
+    padding: 12px 0;
+    color: #000;
+}
+
+.article-footer i {
+    margin-left: 12px;
+    padding: 2px 8px;
+    font-style: normal;
+    background-color: #000;
+    color: white;
+}
+
+.about h3 {
+    margin: 16px 16px 0 16px;
+}
+
+.about p {
+    margin: 0 16px 0 16px;
+}
+
+.popular-post>h3,
+.tags>h3 {
+    padding: 16px;
+    background-color: #cccccc;
+}
+
+.popular-article {
+    padding: 16px;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.popular-post img {
+    width: 48px;
+    float: left;
+}
+
+.popular-article-info {
+    float: left;
+    margin-left: 12px;
+    padding-top: 4px;
+    overflow: hidden;
+}
+
+.popular-article-info p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.tags-container {
+    padding: 16px;
+}
+
+.tags-container span {
+    display: inline-block;
+    margin: 8px 0;
+    padding: 4px 6px;
+    background-color: #eeeeee;
+    font-size: 14px;
+}
+
+span.active {
+    background-color: #000;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .articles {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
 }
