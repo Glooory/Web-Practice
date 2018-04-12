@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +14,9 @@ h3 {
 }
 
 
-/* Header */
+/**************
+     Header
+ **************/
 
 header {
     position: fixed;
@@ -63,4 +66,88 @@ header h2.gohome a {
         font-size: 24px;
         margin: 0;
     }
+}
+
+
+/******************
+    Main Content 
+*******************/
+
+.main-content {
+    margin: 120px auto 60px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.main-content h3 {
+    font-size: 28px;
+    color: #5a96b9;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .main-content {
+        margin: 45px auto;
+        padding: 0 25px;
+    }
+}
+
+
+/***********************
+    All Products Page 
+************************/
+
+
+/* Filter Form */
+
+.filters {
+    position: fixed;
+    width: 190px;
+    padding: 5px 30px 30px;
+    border: 1px solid #DBE3E7;
+    border-radius: 3px;
+    box-shadow: 1px 3px 1px rgba( 0, 0, 0, 0.08);
+    background-color: #fff;
+    color: #2b2e31;
+    text-align: left;
+    opacity: 1;
+    pointer-events: none;
+}
+
+.filters .filter-criteria {
+    display: block;
+    margin: 10px 0 10px;
+}
+
+.filters span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filters label {
+    display: block;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.filters label input {
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.filters button {
+    width: 95px;
+    height: 32px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.12);
+    background-color: #4bc34b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
 }
